@@ -1,0 +1,100 @@
+button:focus {
+  outline: none;
+}
+
+@media (min-width: 300px) {
+  .d-flex.d-sm-flex.d-md-flex.d-lg-flex.d-xl-flex.justify-content-center.align-items-center.justify-content-sm-center.align-items-sm-center.justify-content-md-center.align-items-md-center.justify-content-lg-center.align-items-lg-center.justify-content-xl-center.align-items-xl-center {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .d-flex.d-sm-flex.d-md-flex.d-lg-flex.d-xl-flex.justify-content-center.align-items-center.justify-content-sm-center.align-items-sm-center.justify-content-md-center.align-items-md-center.justify-content-lg-center.align-items-lg-center.justify-content-xl-center.align-items-xl-center {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-uppercase.text-left {
+    width: 140px;
+  }
+}
+
+@media (max-width: 767px) {
+  .text-uppercase.text-left {
+    margin-top: -22px;
+  }
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgb(255,255,255);
+  border-radius: 100%;
+  box-shadow: none;
+}
+
+.btn-primary:hover {
+  color: rgb(73,222,255);
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-primary {
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgb(255,255,255);
+  border-radius: 100%;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: rgb(72,189,255);
+  border-color: rgb(72,189,255);
+  transition: 0.5s;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .nav-item.js-scroll-trigger {
+    margin-right: -22px;
+    margin-left: -22px;
+  }
+}
+
+.nav-link {
+  transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .photo-background {
+    margin-left: 0px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .photo-background {
+    max-width: 400px;
+  }
+}
+
+#line {
+  border-radius: 10px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+a.btn.disabled, fieldset:disabled a.btn {
+  pointer-events: none;
+  border: none;
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
